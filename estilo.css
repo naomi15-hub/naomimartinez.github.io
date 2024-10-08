@@ -1,0 +1,32 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Cambia "center" a "flex-start" para alinear a la izquierda */
+    justify-content: center; /* Corrige "alineado" a "center" */
+    height: 100vh;
+    margin-left: 20px; /* Añade un margen a la izquierda si es necesario */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input {
+    padding: 8px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#mensaje {
+    margin-top: 20px;
+    font-size: 18px;
+    color: rgb(229, 25, 219);
+}
